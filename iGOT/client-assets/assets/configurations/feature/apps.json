@@ -19,7 +19,7 @@
       "show": true,
       "status": "beta",
       "toolTip": "FAQs",
-      "url": "/app/info/faq",
+      "url": "http://support.aastrika.org",
       "shortName": "Help"
     },
     "feature_admin": {
@@ -60,7 +60,9 @@
         "terms and conditions of sale"
       ],
       "name": "Terms & Condition",
-      "permission": [],
+      "permission": [
+        ""
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Terms & Condition",
@@ -79,90 +81,14 @@
         "about us"
       ],
       "name": "About Us",
-      "permission": [],
+      "permission": [
+        "ABOUT_US"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "About Us",
       "url": "/app/info/about",
       "shortName": "About"
-    },
-    "feature_discuss": {
-      "accessKey": "D",
-      "icon": "forum",
-      "iconType": "mat-icon",
-      "id": "feature_discuss",
-      "keywords": [
-        "about platform",
-        "information",
-        "discuss",
-        "discussion forum"
-      ],
-      "name": "Discuss",
-      "permission": [
-        "ABOUT_US"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "discuss",
-      "url": "/app/discuss",
-      "shortName": "Discuss"
-    },
-    "feature_learn": {
-      "accessKey": "L",
-      "icon": "school",
-      "iconType": "mat-icon",
-      "id": "feature_learn",
-      "keywords": [
-        "learn",
-        "learning"
-      ],
-      "name": "Learn",
-      "permission": [
-        "ABOUT_US"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "learn",
-      "url": "/page/learn",
-      "shortName": "Learn"
-    },
-    "feature_network": {
-      "accessKey": "N",
-      "icon": "group",
-      "iconType": "mat-icon",
-      "id": "feature_network",
-      "keywords": [
-        "network",
-        "learning"
-      ],
-      "name": "Network",
-      "permission": [
-        "ABOUT_US"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "network",
-      "url": "/app/network-v2",
-      "shortName": "Network"
-    },
-    "feature_dashboard_v2": {
-      "accessKey": "D",
-      "icon": "bar_chart",
-      "iconType": "mat-icon",
-      "id": "feature_dashboard_v2",
-      "keywords": [
-        "home",
-        "dashboard"
-      ],
-      "name": "Home",
-      "permission": [
-        "DASHBOARD"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "Dashboard",
-      "url": "https://igot-sunbird-pm.idc.tarento.com/home",
-      "shortName": "Home"
     },
     "feature_goals": {
       "accessKey": "",
@@ -200,7 +126,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Dashboard",
-      "url": "/page/home/",
+      "url": "/page/home",
       "shortName": "Home"
     },
     "feature_badges": {
@@ -255,116 +181,16 @@
         "authoring tool"
       ],
       "name": "Author",
-      "permission": [],
-      "show": true,
-      "status": "live",
-      "toolTip": "Author",
-      "shortName": "Author",
-      "url": "/author/home"
-    },
-    "feature_frac": {
-      "accessKey": "A",
-      "icon": "/assets/icons/FRAC_dictionaries.svg",
-      "iconType": "mat-icon",
-      "id": "feature_frac",
-      "keywords": [
-        "frac"
-      ],
-      "isExternal": "true",
-      "name": "Frac",
-      "permission": [],
-      "show": true,
-      "status": "live",
-      "toolTip": "Frac",
-      "shortName": "Frac",
-      "url": "https://frac-dictionary.igot-dev.in/"
-    },
-    "feature_cbp": {
-      "accessKey": "",
-      "icon": "/assets/icons/CBP_portal.svg",
-      "iconType": "mat-icon",
-      "id": "feature_cbp",
-      "keywords": [
-        "author",
-        "authoring tool"
-      ],
-      "isExternal": "true",
-      "name": "CBP",
       "permission": [
         "editor",
         "admin",
-        "content_publisher",
-        "content_creator",
-        "content-creator",
-        "content_reviewer"
+        "publisher"
       ],
       "show": true,
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp.igot-dev.in/"
-    },
-    "feature_cbc": {
-      "accessKey": "",
-      "icon": "/assets/icons/CBC_portal.svg",
-      "iconType": "mat-icon",
-      "id": "feature_cbc",
-      "keywords": [
-        "cbc"
-      ],
-      "isExternal": "true",
-      "name": "CBC",
-      "permission": [
-        "cbc_admin",
-        "CBC_MEMBER"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "Author",
-      "shortName": "Author",
-      "url": "https://cbc.igot-dev.in/"
-    },
-    "feature_mdo": {
-      "accessKey": "",
-      "icon": "/assets/icons/MDO_portal.svg",
-      "iconType": "mat-icon",
-      "id": "feature_mdo",
-      "keywords": [
-        "mdo"
-      ],
-      "isExternal": "true",
-      "name": "MDO",
-      "permission": [
-        "admin",
-        "mdo_admin",
-        "wat_user",
-        "wat_member"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "MDO",
-      "shortName": "MDP",
-      "url": "https://mdo.igot-dev.in/"
-    },
-    "feature_spv": {
-      "accessKey": "",
-      "icon": "/assets/icons/SPV_portal.svg",
-      "iconType": "mat-icon",
-      "id": "feature_spv",
-      "keywords": [
-        "spv"
-      ],
-      "isExternal": "true",
-      "name": "SPV",
-      "permission": [
-        "superAdmin",
-        "spv_admin"
-      ],
-      "show": true,
-      "status": "live",
-      "toolTip": "SPV",
-      "shortName": "SPV",
-      "url": "https://spv.igot-dev.in/"
+      "url": "/author/my-content?status=all"
     },
     "feature_create": {
       "accessKey": "",
@@ -377,12 +203,16 @@
         "create"
       ],
       "name": "Create",
-      "permission": [],
+      "permission": [
+        "editor",
+        "admin",
+        "publisher"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Create",
       "shortName": "Create",
-      "url": "/author/confirmation"
+      "url": "/author/create"
     },
     "feature_feedback": {
       "accessKey": "#",
@@ -401,7 +231,13 @@
         "comment"
       ],
       "name": "Feedback",
-      "permission": [],
+      "permission": [
+        "FEEDBACK",
+        "author",
+        "editor",
+        "admin",
+        "publisher"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Feedback",
@@ -439,7 +275,9 @@
         "la"
       ],
       "name": "Learning Analytics",
-      "permission": [],
+      "permission": [
+        "LEARNING_ANALYTICS"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Learning Analytics",
@@ -447,8 +285,8 @@
       "shortName": "Analytics"
     },
     "feature_notification": {
-      "accessKey": "N",
-      "icon": "notifications",
+      "accessKey": "",
+      "icon": "notifications_none",
       "iconType": "mat-icon",
       "id": "feature_notification",
       "keywords": [
@@ -464,7 +302,7 @@
       "toolTip": "Notification",
       "url": "/app/notifications",
       "shortName": "Notifications",
-      "badgeEndpoint": ""
+      "badgeEndpoint": "/apis/protected/v8/user/iconBadge/unseenNotificationCount"
     },
     "feature_playlist": {
       "accessKey": "P",
@@ -504,7 +342,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "/app/person-profile/me",
+      "url": "/app/profile",
       "shortName": "Profile"
     },
     "feature_profile_update": {
@@ -518,7 +356,7 @@
         "user profile detail",
         "profile update"
       ],
-      "name": "Update Profile",
+      "name": "Profile Update",
       "permission": [],
       "show": true,
       "status": "live",
@@ -561,13 +399,13 @@
       "permission": [
         "editor",
         "admin",
-        "content_publisher"
+        "publisher"
       ],
       "show": true,
       "status": "live",
       "toolTip": "Publish",
       "shortName": "Publish",
-      "url": "/author/my-content?status=publish"
+      "url": "/author/home"
     },
     "feature_review": {
       "accessKey": "",
@@ -583,13 +421,13 @@
       "permission": [
         "editor",
         "admin",
-        "content_publisher"
+        "publisher"
       ],
       "show": true,
       "status": "live",
       "toolTip": "Review",
       "shortName": "Review",
-      "url": "/author/my-content?status=review"
+      "url": "/author/home"
     },
     "feature_search": {
       "accessKey": "",
@@ -623,13 +461,46 @@
         "setup"
       ],
       "name": "Settings",
-      "permission": [],
+      "permission": [
+        "SETTINGS"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Settings",
       "url": "/app/profile/settings",
       "shortName": "Settings"
+    },
+"feature_blogs": {
+      "accessKey": "Z",
+      "icon": "insert_drive_file",
+      "iconType": "mat-icon",
+      "id": "feature_blogs",
+      "keywords": ["blogs", "leader blogs"],
+      "name": "Blogs",
+      "permission": ["BLOGS"],
+      "show": true,
+      "status": "live",
+      "toolTip": "Blogs",
+      "url": "/app/social/blogs",
+      "description": "Read and write big ideas and important stories",
+      "shortName": "Blogs"
+    },
+"feature_Q&A": {
+      "accessKey": "",
+      "description": "Question and answer hub for professional and enthusiast programmers.",
+      "icon": "question_answer",
+      "iconType": "mat-icon",
+      "id": "feature_Q&A",
+      "keywords": ["question and answer", "qna", "q and a"],
+      "name": "Question and Answer",
+      "permission": ["QUESTION_AND_ANSWER"],
+      "show": true,
+      "status": "alpha",
+      "toolTip": "Question and Answer",
+      "url": "/app/social/qna",
+      "shortName": "Q & A"
     }
+
   },
   "groups": [
     {
@@ -671,16 +542,31 @@
       "name": "Contribution",
       "toolTip": "Contribution",
       "hasRole": [
-        "content_creator",
+        "content-creator",
         "channel-creator",
         "ka-creator",
         "kb-creator",
         "editor",
-        "content_reviewer",
-        "content_publisher",
-        "admin",
-        "none"
+        "reviewer",
+        "publisher",
+        "admin"
       ]
+    },
+    {
+      "featureIds": [
+        "feature_catalog"
+      ],
+      "icon": "",
+      "iconType": "none",
+      "id": "group_assistant",
+      "keywords": [
+        "learning",
+        "assistant",
+        "learning assistant"
+      ],
+      "name": "Learning Assistant",
+      "toolTip": "Learning Assistant",
+      "hasRole": []
     },
     {
       "featureIds": [
@@ -694,58 +580,21 @@
       ],
       "name": "Admin",
       "toolTip": "Admin",
-      "hasRole": [
-        "admin"
-      ]
-    },
-    {
-      "featureIds": [
-        "feature_mdo",
-        "feature_cbp",
-        "feature_spv",
-        "feature_cbc"
-      ],
-      "icon": "",
-      "iconType": "none",
-      "id": "portal_admin",
-      "keywords": [
-        "admin"
-      ],
-      "name": "Portals",
-      "toolTip": "Portals",
-      "hasRole": [
-        "admin",
+      "hasRole": [ 
+        "content-creator",
+        "channel-creator",
+        "ka-creator",
+        "kb-creator",
         "editor",
-        "content_publisher",
-        "content_creator",
-        "content_reviewer",
-        "mdo_admin",
-        "cbp_admin",
-        "spv_admin",
-        "cbc_admin",
-        "cbc_member",
-        "wat_user",
-        "wat_member"
+        "admin"
       ]
-    },
-    {
-      "featureIds": [
-        "feature_frac"
-      ],
-      "icon": "",
-      "iconType": "none",
-      "id": "portal_frac",
-      "keywords": [
-        "frac"
-      ],
-      "name": "Frac Tool",
-      "toolTip": "Frac",
-      "hasRole": []
     },
     {
       "featureIds": [
         "feature_aboutUs",
+        "feature_learningAnalytics",
         "feature_mobileApps",
+        "feature_Terms&Condition",
         "feature_quickTour"
       ],
       "icon": "",
@@ -773,6 +622,22 @@
       "name": "Settings",
       "toolTip": "Settings",
       "hasRole": []
+    },
+ {
+      "featureIds": [
+        "feature_blogs",
+        "feature_Q&A"
+      ],
+      "icon": "",
+      "iconType": "none",
+      "id": "group_comm",
+      "keywords": [
+        "communication"
+      ],
+      "name": "Communications",
+      "toolTip": "Communications",
+      "hasRole": []
     }
+
   ]
 }
