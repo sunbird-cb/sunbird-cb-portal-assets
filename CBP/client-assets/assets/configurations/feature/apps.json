@@ -19,7 +19,7 @@
       "show": true,
       "status": "beta",
       "toolTip": "FAQs",
-      "url": "/app/info/faq",
+      "url": "http://support.aastrika.org",
       "shortName": "Help"
     },
     "feature_admin": {
@@ -200,7 +200,7 @@
       "permission": [
         "ABOUT_US"
       ],
-      "show": false,
+      "show": true,
       "status": "live",
       "toolTip": "My goals",
       "url": "/app/goals",
@@ -266,6 +266,51 @@
       "toolTip": "Explore",
       "url": "/page/explore",
       "shortName": "Explore"
+    },
+    "feature_cbc": {
+      "accessKey": "",
+      "icon": "/assets/icons/CBC_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_cbc",
+      "isExternal": "true",
+      "keywords": [
+          "cbc"
+      ],
+      "name": "CBC",
+      "permission": [
+          "cbc_admin",
+          "CBC_MEMBER"
+      ],
+      "shortName": "Author",
+      "show": true,
+      "status": "live",
+      "toolTip": "Author",
+      "url": "https://cbc.igot-dev.in/"
+    },
+    "feature_cbp": {
+        "accessKey": "",
+        "icon": "/assets/icons/CBP_portal.svg",
+        "iconType": "mat-icon",
+        "id": "feature_cbp",
+        "isExternal": "true",
+        "keywords": [
+            "author",
+            "authoring tool"
+        ],
+        "name": "CBP",
+        "permission": [
+            "editor",
+            "admin",
+            "content_publisher",
+            "content_creator",
+            "content-creator",
+            "content_reviewer"
+        ],
+        "shortName": "Author",
+        "show": true,
+        "status": "live",
+        "toolTip": "Author",
+        "url": "https://cbp.igot-dev.in/"
     },
     "feature_authoring": {
       "accessKey": "",
@@ -382,7 +427,8 @@
     },
     "feature_notification": {
       "accessKey": "N",
-      "icon": "notifications",
+      "badgeEndpoint": "/apis/protected/v8/user/iconBadge/unseenNotificationCount",
+      "icon": "notifications_none",
       "iconType": "mat-icon",
       "id": "feature_notification",
       "keywords": [
@@ -413,7 +459,7 @@
       "permission": [
         "PLAYLIST"
       ],
-      "show": false,
+      "show": true,
       "status": "live",
       "toolTip": "Playlists",
       "url": "/app/playlist",
@@ -434,7 +480,7 @@
       "permission": [
         "PROFILE"
       ],
-      "show": false,
+      "show": true,
       "status": "live",
       "toolTip": "Profile",
       "url": "/app/person-profile/me",
@@ -564,13 +610,91 @@
       "toolTip": "Settings",
       "url": "/app/profile/settings",
       "shortName": "Settings"
-    }
+    },
+    "feature_blogs": {
+      "accessKey": "Z",
+      "icon": "insert_drive_file",
+      "iconType": "mat-icon",
+      "id": "feature_blogs",
+      "keywords": ["blogs", "leader blogs"],
+      "name": "Blogs",
+      "permission": ["BLOGS"],
+      "show": true,
+      "status": "live",
+      "toolTip": "Blogs",
+      "url": "/app/social/blogs",
+      "description": "Read and write big ideas and important stories",
+      "shortName": "Blogs"
+    },
+    "feature_Q&A": {
+      "accessKey": "",
+      "description": "Question and answer hub for professional and enthusiast programmers.",
+      "icon": "question_answer",
+      "iconType": "mat-icon",
+      "id": "feature_Q&A",
+      "keywords": ["question and answer", "qna", "q and a"],
+      "name": "Question and Answer",
+      "permission": ["QUESTION_AND_ANSWER"],
+      "show": true,
+      "status": "alpha",
+      "toolTip": "Question and Answer",
+      "url": "/app/social/qna",
+      "shortName": "Q & A"
+    },
+    "feature_mdo": {
+      "accessKey": "",
+      "icon": "/assets/icons/MDO_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_mdo",
+      "isExternal": "true",
+      "keywords": [
+          "mdo"
+      ],
+      "name": "MDO",
+      "permission": [
+          "admin",
+          "mdo_admin",
+          "wat_user",
+          "wat_member"
+      ],
+      "shortName": "MDP",
+      "show": true,
+      "status": "live",
+      "toolTip": "MDO",
+      "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+    },
+    "feature_spv": {
+      "accessKey": "",
+      "icon": "/assets/icons/SPV_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_spv",
+      "isExternal": "true",
+      "keywords": [
+          "spv"
+      ],
+      "name": "SPV",
+      "permission": [
+          "superAdmin",
+          "spv_admin"
+      ],
+      "shortName": "SPV",
+      "show": true,
+      "status": "live",
+      "toolTip": "SPV",
+      "url": "https://aastrika-sb-spv.idc.tarento.com/"
+  }
   },
   "groups": [
     {
       "featureIds": [
+        "feature_feedback",
         "feature_badges",
-        "feature_notification"
+        "feature_notification",
+        "feature_goals",
+        "feature_interests",
+        "feature_playlist",
+        "feature_profile",
+        "feature_profile_update"
       ],
       "icon": "",
       "iconType": "none",

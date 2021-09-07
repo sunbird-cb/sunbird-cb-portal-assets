@@ -11,7 +11,7 @@
       {
         "allowReplace": true,
         "source": "youtube",
-        "pattern": "^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\\.com)?\/.+",
+        "pattern": "^(http(s)?://)?((w){3}.)?youtu(be|.be)?(\\.com)?/.+",
         "allowIframe": true
       }
     ]
@@ -20,15 +20,14 @@
     "error": "/assets/configurations/common/feature/error.json"
   },
   "org": [
-    "dopt",
-    "istm"
+    "aastar"
   ],
-  "rootOrg": "igot",
+  "rootOrg": "aastar",
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
   "defaultThemeClass": "theme-igot",
   "details": {
-    "appName": "CBP-iGOT"
+    "appName": "Aastrika"
   },
   "disablePidCheck": true,
   "isContentDownloadAvailable": false,
@@ -60,9 +59,9 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "iGOT 2.0 is a learning platform aimed at promoting capacity development among civil services. It is a solution built to be ‘fit for purpose’ to meet the exact learning needs of the civil services. iGOT 2.0 will help create impactful and relevant learning paths to achieve the outcomes relevant to their career aspirations.",
-    "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/manifest/favicon.ico"
+    "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
+    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest",
+    "xIcon": "/assets/configurations/learning.aastar.org/manifest/favicon.ico"
   },
   "keycloak": {
     "bearerExcludedUrls": [
@@ -74,7 +73,7 @@
     "clientId": "portal",
     "key": "ws-kc-token-storage",
     "realm": "sunbird",
-    "url": "https://igot-sunbird.idc.tarento.com/auth"
+    "url": "https://igot-dev.in/auth"
   },
   "locals": [
     {
@@ -214,7 +213,7 @@
       "pid": ""
     },
     "env": "prod",
-    "channel": "igot",
+    "channel": "aastar",
     "batchsize": 10,
     "host": "",
     "endpoint": "/apis/protected/v8/user/telemetry",
@@ -248,7 +247,25 @@
   },
   "primaryNavBarConfig": {
     "mediumScreen": {
-      "left": [],
+      "left": [
+        {
+          "config": {
+            "widgetData": {},
+            "widgetSubType": "actionButtonCatalog",
+            "widgetType": "actionButton"
+          },
+          "type": "widgetButton"
+        },
+        {
+          "config": {
+            "actionBtnId": "feature_navigator",
+            "config": {
+              "type": "mat-button"
+            }
+          },
+          "type": "featureButton"
+        }
+      ],
       "right": [
         {
           "type": "featureButton",
