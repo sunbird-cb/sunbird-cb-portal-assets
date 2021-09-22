@@ -5,8 +5,8 @@
         "title": "Help Articles",
         "contents": [
             {
-                "heading": "Unable to login to iGoT",
-                "value": "<p class='mat-body-1'><ng-container i18n>If you are logging into the iGOT account and you receive the error Invalid credentials. Please try again., this means that you're using incorrect login information. If you need to change your password, use the 'Forgot Password' link.</ng-container> </p> "
+                "heading": "Unable to login to Sphere Creator",
+                "value": "<p class='mat-body-1'><ng-container i18n>If you are logging into the Sphere Creator account and you receive the error Invalid credentials. Please try again., this means that you're using incorrect login information. If you need to change your password, use the 'Forgot Password' link.</ng-container> </p> "
             }
         ]
     },
