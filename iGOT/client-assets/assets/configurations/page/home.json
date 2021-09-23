@@ -103,7 +103,7 @@
                       }
                     },
                     "viewMoreUrl": {
-                      "path": "/app/globalsearch",
+                      "path": "/app/search/learning",
                       "queryParams": {
                         "tab": "Learn",
                         "q": "",
