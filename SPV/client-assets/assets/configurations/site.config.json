@@ -23,12 +23,12 @@
     "dopt",
     "istm"
   ],
-  "rootOrg": "igot",
+  "rootOrg": "aastar",
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
   "defaultThemeClass": "theme-igot",
   "details": {
-    "appName": "iGoT"
+    "appName": "Aastrika"
   },
   "disablePidCheck": true,
   "isContentDownloadAvailable": false,
@@ -60,9 +60,9 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "iGOT 2.0 is a learning platform aimed at promoting capacity development among civil services. It is a solution built to be ‘fit for purpose’ to meet the exact learning needs of the civil services. iGOT 2.0 will help create impactful and relevant learning paths to achieve the outcomes relevant to their career aspirations.",
-    "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
-    "xIcon": "/assets/configurations/manifest/favicon.ico"
+    "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
+    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest",
+    "xIcon": "/assets/configurations/learning.aastar.org/manifest/favicon.ico"
   },
   "keycloak": {
     "bearerExcludedUrls": [
@@ -73,8 +73,8 @@
     ],
     "clientId": "portal",
     "key": "ws-kc-token-storage",
-    "realm": "sunbird",
-    "url": "https://igot-dev.in/auth"
+    "realm": "wingspan",
+    "url": "https://sphere.aastrika.org/auth"
   },
   "locals": [
     {
@@ -162,10 +162,10 @@
   ],
   "chatBotUrl": "/chat-bot/#/bot=wingspanbotv7",
   "logos": {
-    "app": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-    "appTransparent": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
+    "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+    "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "appBottomNav": "/assets/instances/eagle/app_logos/source.png",
-    "company": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
+    "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "defaultContent": "/assets/instances/eagle/app_logos/default.png",
     "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
@@ -204,7 +204,7 @@
     "isConfigured": true,
     "tenant": "tarentotechnologies",
     "validEmailExtensions": [
-      "@tarento.tarento.com"
+      "@tarento.com"
     ]
   },
   "telemetryConfig": {
@@ -214,7 +214,7 @@
       "pid": ""
     },
     "env": "prod",
-    "channel": "igot",
+    "channel": "aastar",
     "batchsize": 10,
     "host": "",
     "endpoint": "/apis/protected/v8/user/telemetry",
@@ -252,7 +252,7 @@
       },
       "themeFile": "theme-igot",
       "themeClass": "theme-igot",
-      "themeName": "iGOT Theme"
+      "themeName": "Aastar Theme"
     },
     {
       "color": {

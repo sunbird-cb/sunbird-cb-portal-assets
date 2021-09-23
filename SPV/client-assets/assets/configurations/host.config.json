@@ -6,14 +6,14 @@
     "defaultLocale": "en",
     "defaultThemeClass": "theme-igot",
     "details": {
-        "appName": "iGoT"
+        "appName": "Aastar"
     },
     "disablePidCheck": false,
     "isContentDownloadAvailable": false,
     "org": [
         "dopt"
     ],
-    "rootOrg": "igot",
+    "rootOrg": "aastar",
     "fontSizes": [
         {
             "baseFontSize": "10px",
@@ -42,16 +42,15 @@
         }
     ],
     "indexHtmlMeta": {
-        "description": "iGOT 2.0 is a learning platform aimed at promoting capacity development among civil services. It is a solution built to be ‘fit for purpose’ to meet the exact learning needs of the civil services. iGOT 2.0 will help create impactful and relevant learning paths to achieve the outcomes relevant to their career aspirations.",
-        "appleTouchIcon180": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon.png",
-        "appleTouchIcon57": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon-57x57.png",
-        "icon16": "/assets/assets/configurations/manifest/fav_icons/favicon-16x16.png",
-        "icon32": "/assets/assets/configurations/manifest/fav_icons/favicon-32x32.png",
-        "maskIcon": "/assets/assets/configurations/manifest/fav_icons/safari-pinned-tab.svg",
-        "openSearchUrl": "/assets/assets/configurations/manifest/open-search.xml",
+        "appleTouchIcon180": "/assets/instances/eagle/fav_icons/apple-touch-icon.png",
+        "appleTouchIcon57": "/assets/instances/eagle/fav_icons/apple-touch-icon-57x57.png",
+        "icon16": "/assets/instances/eagle/fav_icons/favicon-16x16.png",
+        "icon32": "/assets/instances/eagle/fav_icons/favicon-32x32.png",
+        "maskIcon": "/assets/instances/eagle/fav_icons/safari-pinned-tab.svg",
+        "openSearchUrl": "/assets/instances/eagle/open-search.xml",
         "themeColorMeta": "primary",
-        "webmanifest": "/assets/assets/configurations/manifest/fav_icons/site.webmanifest",
-        "xIcon": "/assets/assets/configurations/manifest/fav_icons/favicon.ico"
+        "webmanifest": "/assets/instances/eagle/fav_icons/site.webmanifest",
+        "xIcon": "/assets/instances/eagle/fav_icons/favicon.ico"
     },
     "keycloak": {
         "bearerExcludedUrls": [
@@ -62,25 +61,22 @@
         ],
         "clientId": "portal",
         "key": "ws-kc-token-storage",
-        "realm": "sunbird",
-        "url": "https://igot-dev.in/auth"
+        "realm": "wingspan",
+        "url": "https://sphere.aastrika.org/auth"
     },
     "locals": [
         {
             "isAvailable": true,
             "isEnabled": true,
-            "locals": [
-                "en",
-                "en-US"
-            ],
+            "locals": ["en", "en-US"],
             "path": "",
             "isRTL": false
-        }
+          }
     ],
     "logos": {
-        "app": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-        "appTransparent": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-        "company": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
+        "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+        "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+        "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
         "defaultContent": "/assets/instances/eagle/app_logos/default.png",
         "developedBy": "",
         "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
@@ -135,7 +131,7 @@
             },
             "themeFile": "theme-igot",
             "themeClass": "theme-igot",
-            "themeName": "Theme iGOT"
+            "themeName": "Aastar iGOT"
         }
     ],
     "microsoft": {
