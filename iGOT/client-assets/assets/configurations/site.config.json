@@ -334,11 +334,32 @@
           }
         },
         {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_mydashboard",
+            "toolTip": "My Dashboard",
+            "className": "fixtopMargin",
+            "config": {
+              "actionBtnId": "feature_mydashboard",
+              "type": "card-mini",
+              "hideTitle": true
+            }
+          }
+        },
+        {
           "type": "widgetButton",
           "config": {
             "widgetType": "actionButton",
             "widgetSubType": "actionButtonProfile",
-            "widgetData": {}
+
+
+            "widgetData": {
+              "disableViewProfile": true,
+              "disableAllFeatures": true,
+              "disableSettings": true
+            },
+            "hideTitle": true
+
           }
         }
       ]
@@ -409,6 +430,7 @@
       "right": []
     }
   },
+
   "featuredApps": [
     "feature_playlist",
     "feature_goals",
@@ -417,11 +439,72 @@
     "feature_create_konnect",
     "feature_konnect"
   ],
+
+  "hubs": [
+    {
+      "path": "/page/learn",
+      "active": true,
+      "hubname": "Learn",
+      "desc": "Shape your Skills with hunderds-of online course",
+      "icon": "school",
+      "accessKey": "L"
+    },
+    {
+      "path": "/app/discuss/home",
+      "active": true,
+      "hubname": "Discuss",
+      "desc": "Have a question? Have an Idea? discuss with your peers",
+      "icon": "forum",
+      "accessKey": "D"
+    },
+    {
+      "path": "/app/network-v2",
+      "active": true,
+      "hubname": "Network",
+      "desc": "Connect with Interesting people, see what they are upto.",
+      "icon": "group",
+      "accessKey": "N"
+    },
+    {
+      "path": "/app/careers/home",
+      "active": true,
+      "hubname": "Career",
+      "desc": "Explore the carrier option grow into the path you are",
+      "icon": "work",
+      "accessKey": "C"
+    },
+    {
+      "path": "/app/competencies",
+      "active": true,
+      "hubname": "Competencies",
+      "desc": "Add your competencies, see what others are adding",
+      "icon": "extension",
+      "accessKey": "O"
+    },
+    {
+      "path": "/app/event-hub",
+      "active": true,
+      "hubname": "Events",
+      "desc": "Add your events",
+      "icon": "event",
+      "accessKey": "E"
+    }
+  ],
+  "featuredApps": [],
+
   "intranetIframeUrls": [],
   "introVideo": {
     "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
   },
   "tourVideo": {
-    "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
+    "en": "/assets/common/user-manual/video-guide.mp4"
+  },
+  "portalUrls": {
+    "igot": "https://igot-dev.in/",
+    "spv": "https://spv.igot-dev.in/",
+    "mdo": "https://mdo.igot-dev.in/",
+    "cbc": "https://cbc.igot-dev.in/",
+    "cbp": "https://cbp.igot-dev.in/",
+    "frac": "https://frac-dictionary.igot-dev.in/"
   }
 }

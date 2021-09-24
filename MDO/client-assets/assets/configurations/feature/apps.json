@@ -178,12 +178,11 @@
       ],
       "name": "Frac",
       "permission": [
-        "admin"
       ],
       "show": true,
       "status": "live",
       "toolTip": "Frac",
-      "url": "/app/frac",
+      "url": "https://frac-dictionary.igot-dev.in/",
       "shortName": "Frac"
     },
     "feature_goals": {
@@ -392,6 +391,25 @@
       "toolTip": "SPV",
       "shortName": "SPV",
       "url": "https://spv.igot-dev.in/"
+    },
+    "feature_igot": {
+      "accessKey": "",
+      "icon": "/assets/icons/Karmayogi_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_igot",
+      "keywords": [
+        "igot"
+      ],
+      "isExternal": "true",
+      "name": "Karmayogi user",
+      "permission": [
+        "public"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Author",
+      "shortName": "Author",
+      "url": "https://igot-dev.in/"
     },
     "feature_create": {
       "accessKey": "",
@@ -690,17 +708,9 @@
       ],
       "name": "Contribution",
       "toolTip": "Contribution",
-      "hasRole": [
-        "content-creator",
-        "channel-creator",
-        "ka-creator",
-        "kb-creator",
-        "editor",
-        "reviewer",
-        "publisher",
-        "admin"
-      ]
+      "hasRole": ["none"]
     },
+
     {
       "featureIds": [
         "feature_admin"
@@ -719,10 +729,53 @@
     },
     {
       "featureIds": [
+        "feature_spv",
+        "feature_cbp",
+        "feature_cbc",
+        "feature_igot"
+      ],
+      "icon": "",
+      "iconType": "none",
+      "id": "portal_admin",
+      "keywords": [
+        "admin"
+      ],
+      "name": "Portals",
+      "toolTip": "Portals",
+      "hasRole": [
+        "admin",
+        "editor",
+        "content_publisher",
+        "content_creator",
+        "content_reviewer",
+        "mdo_admin",
+        "cbp_admin",
+        "spv_admin",
+        "cbc_admin",
+        "cbc_member",
+        "wat_user",
+        "wat_member",
+        "public"
+      ]
+    },
+    {
+      "featureIds": [
+        "feature_frac"
+      ],
+      "icon": "",
+      "iconType": "none",
+      "id": "portal_frac",
+      "keywords": [
+        "frac"
+      ],
+      "name": "Frac Tool",
+      "toolTip": "Frac",
+      "hasRole": []
+    },
+    {
+      "featureIds": [
         "feature_aboutUs",
-        "feature_learningAnalytics",
         "feature_mobileApps",
-        "feature_Terms&Condition",
         "feature_quickTour"
       ],
       "icon": "",
@@ -739,21 +792,17 @@
     },
     {
       "featureIds": [
-        "feature_cbp",
-        "feature_cbc"
+        "feature_settings"
       ],
       "icon": "",
       "iconType": "none",
-      "id": "portal_admin",
+      "id": "group_account",
       "keywords": [
-        "admin"
+        "settings"
       ],
-      "name": "Portals",
-      "toolTip": "Portals",
-      "hasRole": [
-        "mdo_admin",
-        "wat_member"
-      ]
+      "name": "Settings",
+      "toolTip": "Settings",
+      "hasRole": []
     }
   ]
 }

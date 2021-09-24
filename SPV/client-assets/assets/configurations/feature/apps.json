@@ -258,7 +258,52 @@
       "status": "live",
       "toolTip": "Frac",
       "shortName": "Frac",
-      "url": "https://igot-sunbird-frac.idc.tarento.com/"      
+      "url": "https://frac-dictionary.igot-dev.in/"      
+    },
+    "feature_cbp": {
+      "accessKey": "",
+      "icon": "/assets/icons/CBP_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_cbp",
+      "keywords": [
+        "author",
+        "authoring tool"
+      ],
+      "isExternal": "true",
+      "name": "CBP",
+      "permission": [
+        "editor",
+        "admin",
+        "content_publisher",
+        "content_creator",
+        "content-creator",
+        "content_reviewer"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Author",
+      "shortName": "Author",
+      "url": "https://cbp.igot-dev.in/"
+    },
+    "feature_cbc": {
+      "accessKey": "",
+      "icon": "/assets/icons/CBC_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_cbc",
+      "keywords": [
+        "cbc"
+      ],
+      "isExternal": "true",
+      "name": "CBC",
+      "permission": [
+        "cbc_admin",
+        "CBC_MEMBER"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Author",
+      "shortName": "Author",
+      "url": "https://cbc.igot-dev.in/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -525,6 +570,25 @@
       "toolTip": "Settings",
       "url": "/app/profile/settings",
       "shortName": "Settings"
+    },
+    "feature_igot": {
+      "accessKey": "",
+      "icon": "/assets/icons/Karmayogi_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_igot",
+      "keywords": [
+        "igot"
+      ],
+      "isExternal": "true",
+      "name": "Karmayogi user",
+      "permission": [
+        "public"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Author",
+      "shortName": "Author",
+      "url": "https://igot-dev.in/"
     }
   },
   "groups": [
@@ -568,6 +632,7 @@
       "toolTip": "Contribution",
       "hasRole": ["none"]
     },
+
     {
       "featureIds": [
         "feature_admin"
@@ -589,7 +654,7 @@
         "feature_mdo",
         "feature_cbp",
         "feature_cbc",
-        "feature_spv"
+        "feature_igot"
       ],
       "icon": "",
       "iconType": "none",
@@ -611,7 +676,8 @@
         "cbc_admin",
         "cbc_member",
         "wat_user",
-        "wat_member"
+        "wat_member",
+        "public"
       ]
     },
     {

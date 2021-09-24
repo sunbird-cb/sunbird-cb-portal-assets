@@ -129,6 +129,24 @@
       "url": "/page/home",
       "shortName": "Home"
     },
+    "feature_mydashboard": {
+      "accessKey": "",
+      "icon": "bar_chart",
+      "iconType": "mat-icon",
+      "id": "feature_mydashboard",
+      "keywords": [
+        "dashboard"
+      ],
+      "name": "My Dashboard",
+      "permission": [
+        "ABOUT_US"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "My Dashboard",
+      "url": "/app/my-dashboard",
+      "shortName": "MyDashboard"
+    },
     "feature_badges": {
       "accessKey": "",
       "icon": "stars",
@@ -168,7 +186,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Explore",
-      "url": "/page/explore",
+      "url": "/page/learn",
       "shortName": "Explore"
     },
     "feature_authoring": {
@@ -190,7 +208,51 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "/author/my-content?status=all"
+      "url": "https://aastrika-sb-cbp.idc.tarento.com/"
+    },
+   
+    "feature_mdo": {
+      "accessKey": "",
+      "icon": "/assets/icons/MDO_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_mdo",
+      "keywords": [
+        "mdo"
+      ],
+      "isExternal": "true",
+      "name": "MDO",
+      "permission": [
+        "admin",
+        "mdo_admin",
+        "wat_user",
+        "wat_member"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "MDO",
+      "shortName": "MDP",
+      "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+    },
+    "feature_spv": {
+      "accessKey": "",
+      "icon": "/assets/icons/SPV_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_spv",
+      "keywords": [
+        "spv"
+      ],
+      "isExternal": "true",
+      "name": "SPV",
+      "permission": [
+        "superAdmin",
+        "spv_admin"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "SPV",
+      "shortName": "SPV",
+      "url": "https://aastrika-sb-spv.idc.tarento.com/"
+
     },
     "feature_create": {
       "accessKey": "",
@@ -604,7 +666,15 @@
     },
     {
       "featureIds": [
+
         "feature_admin"
+
+        "feature_mdo",
+        "feature_cbp",
+        "feature_spv",
+        "feature_cbc",
+        "feature_igot"
+
       ],
       "icon": "",
       "iconType": "none",
