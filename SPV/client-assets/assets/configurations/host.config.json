@@ -6,14 +6,14 @@
     "defaultLocale": "en",
     "defaultThemeClass": "theme-igot",
     "details": {
-        "appName": "iGoT"
+        "appName": "Aastrika"
     },
     "disablePidCheck": false,
     "isContentDownloadAvailable": false,
     "org": [
-        "dopt"
+        "Aastrika"
     ],
-    "rootOrg": "igot",
+    "rootOrg": "Aastrika",
     "fontSizes": [
         {
             "baseFontSize": "10px",
@@ -42,7 +42,6 @@
         }
     ],
     "indexHtmlMeta": {
-        "description": "iGOT 2.0 is a learning platform aimed at promoting capacity development among civil services. It is a solution built to be ‘fit for purpose’ to meet the exact learning needs of the civil services. iGOT 2.0 will help create impactful and relevant learning paths to achieve the outcomes relevant to their career aspirations.",
         "appleTouchIcon180": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon.png",
         "appleTouchIcon57": "/assets/assets/configurations/manifest/fav_icons/apple-touch-icon-57x57.png",
         "icon16": "/assets/assets/configurations/manifest/fav_icons/favicon-16x16.png",
@@ -62,8 +61,8 @@
         ],
         "clientId": "portal",
         "key": "ws-kc-token-storage",
-        "realm": "sunbird",
-        "url": "https://igot-dev.in/auth"
+        "realm": "aastar",
+        "url": "https://aastrika-sb-spv.idc.tarento.com/"
     },
     "locals": [
         {
@@ -135,7 +134,7 @@
             },
             "themeFile": "theme-igot",
             "themeClass": "theme-igot",
-            "themeName": "Theme iGOT"
+            "themeName": "Theme Aastar"
         }
     ],
     "microsoft": {

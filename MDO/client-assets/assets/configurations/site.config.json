@@ -23,12 +23,12 @@
     "dopt",
     "istm"
   ],
-  "rootOrg": "igot",
+  "rootOrg": "SPhere Org Manager",
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
   "defaultThemeClass": "theme-igot",
   "details": {
-    "appName": "MDO-iGOT"
+    "appName": "SPhere Org Manager"
   },
   "disablePidCheck": true,
   "isContentDownloadAvailable": false,
@@ -60,7 +60,7 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "iGOT 2.0 is a learning platform aimed at promoting capacity development among civil services. It is a solution built to be ‘fit for purpose’ to meet the exact learning needs of the civil services. iGOT 2.0 will help create impactful and relevant learning paths to achieve the outcomes relevant to their career aspirations.",
+    "description": "SPhere Org Manager is a learning platform aimed at promoting capacity development.",
     "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
     "xIcon": "/assets/configurations/manifest/favicon.ico"
   },
@@ -150,18 +150,18 @@
   ],
   "chatBotUrl": "/chat-bot/#/bot=wingspanbotv7",
   "logos": {
-    "app": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-    "appTransparent": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
+    "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+    "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "appBottomNav": "/assets/instances/eagle/app_logos/source.png",
-    "company": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
+    "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
     "defaultContent": "/assets/instances/eagle/app_logos/default.png",
     "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
     "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
     "developedBy": "Tarento Technologies",
     "platformBanner": "/apis/public/v8/assets/common/misc/about-wingspan.jpg",
-    "poweredBy": "Tarento",
+    "poweredBy": "Tarento Technologies",
     "landingLogo": "",
-    "defaultSourceLogo": "/assets/instances/eagle/app_logos/source.png",
+    "defaultSourceLogo": "/assets/instances/eagle/app_logos/aastar-source.png",
     "playListLogo": "/assets/instances/eagle/about-page/about-header.jpg"
   },
   "sources": [
@@ -202,7 +202,7 @@
       "pid": ""
     },
     "env": "prod",
-    "channel": "igot",
+    "channel": "aastar",
     "batchsize": 10,
     "host": "",
     "endpoint": "/apis/protected/v8/user/telemetry",
@@ -220,7 +220,7 @@
       },
       "themeFile": "theme-igot",
       "themeClass": "theme-igot",
-      "themeName": "iGOT Theme"
+      "themeName": "Aastar Theme"
     }
   ],
   "validMailIdExtensionsForMailMe": [

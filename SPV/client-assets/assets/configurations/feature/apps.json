@@ -19,7 +19,7 @@
       "show": true,
       "status": "beta",
       "toolTip": "FAQs",
-      "url": "/app/info/faq",
+      "url": "http://support.aastrika.org",
       "shortName": "Help"
     },
     "feature_admin": {
