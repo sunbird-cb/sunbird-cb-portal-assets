@@ -6,14 +6,14 @@
     "defaultLocale": "en",
     "defaultThemeClass": "theme-igot",
     "details": {
-        "appName": "Aastrika"
+        "appName": "Sphere Administrator"
     },
     "disablePidCheck": false,
     "isContentDownloadAvailable": false,
     "org": [
-        "Aastrika"
+        "Sphere Administrator"
     ],
-    "rootOrg": "Aastrika",
+    "rootOrg": "Sphere Administrator",
     "fontSizes": [
         {
             "baseFontSize": "10px",
@@ -77,14 +77,14 @@
         }
     ],
     "logos": {
-        "app": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-        "appTransparent": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
-        "company": "/assets/instances/eagle/app_logos/eagle-logo-transparent.svg",
+        "app": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+        "appTransparent": "/assets/instances/eagle/app_logos/aastar-logo.svg",
+        "company": "/assets/instances/eagle/app_logos/aastar-logo.svg",
         "defaultContent": "/assets/instances/eagle/app_logos/default.png",
         "developedBy": "",
         "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
         "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
-        "poweredBy": "eagle eagle",
+        "poweredBy": "Tarento",
         "landingLogo": ""
     },
     "sources": [
