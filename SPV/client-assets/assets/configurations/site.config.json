@@ -23,12 +23,12 @@
     "dopt",
     "istm"
   ],
-  "rootOrg": "Aastrika",
+  "rootOrg": "Sphere Administrator",
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
   "defaultThemeClass": "theme-igot",
   "details": {
-    "appName": "Aastrika"
+    "appName": "Sphere Administrator"
   },
   "disablePidCheck": true,
   "isContentDownloadAvailable": false,
@@ -60,7 +60,7 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "Aastrika  is a learning platform aimed at promoting capacity development.",
+    "description": "Sphere Administrator  is a learning platform aimed at promoting capacity development.",
     "webmanifest": "/assets/configurations/manifest/manifest.webmanifest",
     "xIcon": "/assets/configurations/manifest/favicon.ico"
   },
@@ -252,7 +252,7 @@
       },
       "themeFile": "theme-igot",
       "themeClass": "theme-igot",
-      "themeName": "Aastar Theme"
+      "themeName": "Aastar Theme" 
     },
     {
       "color": {
