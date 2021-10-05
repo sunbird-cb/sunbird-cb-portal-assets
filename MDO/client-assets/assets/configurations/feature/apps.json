@@ -543,7 +543,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "/app/person-profile/me",
+      "url": "https://aastrika-sb.idc.tarento.com/app/profile/dashboard",
       "shortName": "Profile"
     },
     "feature_profile_update": {
