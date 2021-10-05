@@ -511,29 +511,56 @@
       ],
       "isExternal": "true",
       "name": "CBP",
-      "permission": [],
+      "permission": [
+        "CONTENT_CREATOR", 
+        "CONTENT_REVIEWER", 
+        "CONTENT_PUBLISHER", 
+        "spv_admin",
+        "mdo_admin"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
       "url": "http://aastrika-sb-cbp.idc.tarento.com/"
     },
-    "feature_frac": {
-      "accessKey": "A",
-      "icon": "/assets/icons/FRAC_dictionaries.svg",
+    "feature_mdo": {
+      "accessKey": "",
+      "icon": "/assets/icons/MDO_portal.svg",
       "iconType": "mat-icon",
-      "id": "feature_frac",
-      "keywords": [
-        "frac"
-      ],
+      "id": "feature_mdo",
       "isExternal": "true",
-      "name": "Frac",
-      "permission": [],
+      "keywords": [
+          "mdo"
+      ],
+      "name": "MDO",
+      "permission": [
+        "mdo_admin"
+      ],
+      "shortName": "MDP",
       "show": true,
       "status": "live",
-      "toolTip": "Frac",
-      "shortName": "Frac",
-      "url": "https://frac-dictionary.igot-dev.in/"
+      "toolTip": "MDO",
+      "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+    },
+    "feature_spv": {
+      "accessKey": "",
+      "icon": "/assets/icons/SPV_portal.svg",
+      "iconType": "mat-icon",
+      "id": "feature_spv",
+      "isExternal": "true",
+      "keywords": [
+          "spv"
+      ],
+      "name": "SPV",
+      "permission": [
+        "spv_admin"
+      ],
+      "shortName": "SPV",
+      "show": true,
+      "status": "live",
+      "toolTip": "SPV",
+      "url": "https://aastrika-sb-spv.idc.tarento.com/"
     }
   },
   "groups": [
