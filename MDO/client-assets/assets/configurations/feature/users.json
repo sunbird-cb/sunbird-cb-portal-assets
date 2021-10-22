@@ -4,6 +4,7 @@
       "widgetSubType": "leftMenu",
       "widgetData": {
         "logo": true,
+        "logoPath": "../assets/instances/eagle/app_logos/aastar-source.png",
         "menus": [
             {
                 "name": "Home",
@@ -64,7 +65,7 @@
               },
               "enabled": true,
               "routerLink": "/app/events"
-            }, 
+            },
             {
                 "name": "Work allocation tool",
                 "key": "workallocation",
@@ -320,27 +321,27 @@
     "profileDataKey": [
       {
         "name": "Personal Details",
-        "key": "personalDetails"    
+        "key": "personalDetails"
       },
       {
         "name": "Academics",
-        "key": "academics"    
+        "key": "academics"
       },
       {
         "name": "Employment Details",
-        "key": "employmentDetails"    
+        "key": "employmentDetails"
       },
       {
         "name": "Professional Details",
-        "key": "professionalDetails"    
+        "key": "professionalDetails"
       },
       {
         "name": "Skills",
-        "key": "skills"    
+        "key": "skills"
       },
       {
         "name": "Interests",
-        "key": "interests"    
-      }  
+        "key": "interests"
+      }
     ]
   }
