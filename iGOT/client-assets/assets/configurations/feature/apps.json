@@ -325,7 +325,7 @@
       "shortName": "Playlists"
     },
     "feature_profile": {
-      "accessKey": "U",
+      "accessKey": "",
       "icon": "account_circle",
       "iconType": "mat-icon",
       "id": "feature_profile",
@@ -346,7 +346,7 @@
       "shortName": "Profile"
     },
     "feature_profile_update": {
-      "accessKey": "U",
+      "accessKey": "",
       "icon": "create",
       "iconType": "mat-icon",
       "id": "feature_profile_update",
