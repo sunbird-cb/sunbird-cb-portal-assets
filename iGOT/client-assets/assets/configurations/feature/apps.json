@@ -516,7 +516,9 @@
         "CONTENT_REVIEWER", 
         "CONTENT_PUBLISHER", 
         "spv_admin",
-        "mdo_admin"
+        "mdo_admin",
+        "MDO_ADMIN",
+        "SPV_ADMIN"
       ],
       "show": true,
       "status": "live",
@@ -535,7 +537,8 @@
       ],
       "name": "MDO",
       "permission": [
-        "mdo_admin"
+        "mdo_admin",
+        "MDO_ADMIN"
       ],
       "shortName": "MDP",
       "show": true,
@@ -554,7 +557,8 @@
       ],
       "name": "SPV",
       "permission": [
-        "spv_admin"
+        "spv_admin",
+        "SPV_ADMIN"
       ],
       "shortName": "SPV",
       "show": true,
