@@ -70,8 +70,8 @@
     ],
     "clientId": "portal",
     "key": "ws-kc-token-storage",
-    "realm": "wingspan",
-    "url": "https://sphere.aastrika.org/auth"
+    "realm": "sunbird",
+    "url": "https://aastrika-sb.idc.tarento.com/auth"
   },
   "locals": [
     {

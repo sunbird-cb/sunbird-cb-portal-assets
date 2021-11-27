@@ -40,7 +40,7 @@
     "tabs": [
       {
         "searchQuery": {
-          "filters": {},
+          "filters": {"contentType":["Course"]},
           "advancedFilters": []
         },
         "phraseSearch": false,
