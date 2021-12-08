@@ -317,7 +317,7 @@
             "actionBtnId": "feature_navigator",
             "config": {
               "type": "mat-button"
-            }
+            } 
           }
         }
       ],
