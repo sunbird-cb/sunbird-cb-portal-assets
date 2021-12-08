@@ -64,7 +64,7 @@
       "key": "ws-kc-token-storage",
       "realm": "sunbird",
       "url": "https://aastrika-sb.idc.tarento.com/auth"
-  },
+  }, 
   "locals": [
       {
           "isAvailable": true,
