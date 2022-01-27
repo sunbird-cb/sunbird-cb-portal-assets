@@ -7,9 +7,6 @@
         "duration": {
           "displayName": "Duration"
         },
-        "exclusiveContent": {
-          "displayName": "Costs"
-        },
         "complexityLevel": {
           "displayName": "Level"
         },
@@ -23,9 +20,6 @@
         },
         "sourceShortName": {
           "displayName": "Source"
-        },
-        "resourceType": {
-          "displayName": "Format"
         },
         "region": {
           "displayName": "Region"
