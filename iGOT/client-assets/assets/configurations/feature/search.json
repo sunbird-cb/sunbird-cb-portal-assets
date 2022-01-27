@@ -1,40 +1,40 @@
 {
   "search": {
-      "visibleFilters": {
-        "learningMode": {
-          "displayName": "Mode"
-        },
-        "duration": {
-          "displayName": "Duration"
-        },
-        "complexityLevel": {
-          "displayName": "Level"
-        },
-        "catalogPaths": {
-          "displayName": "Catalog",
+    "visibleFilters": {
+      "learningMode": {
+        "displayName": "Mode"
+      },
+      "duration": {
+        "displayName": "Duration"
+      },
+      "complexityLevel": {
+        "displayName": "Level"
+      },
+      "catalogPaths": {
+        "displayName": "Catalog",
           "order": [
             {
               "_key": "asc"
             }
           ]
-        },
-        "sourceShortName": {
-          "displayName": "Source"
-        },
-        "region": {
-          "displayName": "Region"
-        },
-        "concepts": {
-          "displayName": "Concepts"
-        },
-        "lastUpdatedOn": {
-          "displayName": "Published Date"
-        }
       },
+      "sourceShortName": {
+        "displayName": "Source"
+      },
+      "region": {
+        "displayName": "Region"
+      },
+      "concepts": {
+        "displayName": "Concepts"
+      },
+      "lastUpdatedOn": {
+        "displayName": "Published Date"
+      }
+    },
     "tabs": [
       {
         "searchQuery": {
-          "filters": {"contentType":["Course"]},
+          "filters": { "contentType": ["Course"] },
           "advancedFilters": []
         },
         "phraseSearch": false,
@@ -44,17 +44,17 @@
         "titleKey": "learning"
       }
     ],
-    "routeValue": [
-      "learning"
-    ],
-    "placeHolder": {
+      "routeValue": [
+        "learning"
+      ],
+        "placeHolder": {
       "learning": "What do you want to learn?"
     },
     "languageSearch": [
       "EN"
     ],
-    "missalaneous": {
-      "tabsToAdd": {}
+      "missalaneous": {
+      "tabsToAdd": { }
     },
     "suggestedFilters": []
   },
