@@ -1,0 +1,35 @@
+{
+    "actionMenu": [
+        {
+            "name": "View",
+            "key": "viewContent",
+            "enabledFor": ["mdo_leader", "mdo_admin"],
+            "enabled": true
+        },
+        {
+            "name": "Mark as Invalid",
+            "key": "invalidContent",
+            "enabledFor": ["mdo_leader", "mdo_admin"],
+            "enabled": true
+        },
+        {
+            "name": "Assign",
+            "key": "assignContent",
+            "enabledFor": ["mdo_leader", "mdo_admin"],
+            "enabled": true
+        },
+        {
+            "name": "Re-Assign",
+            "key": "reAssignContent",
+            "enabledFor": ["mdo_leader", "mdo_admin"],
+            "enabled": true
+        },
+        {
+            "name": "Copy",
+            "key": "copyContent",
+            "enabledFor": ["mdo_leader", "mdo_admin"],
+            "enabled": true
+        }
+
+    ]
+}
