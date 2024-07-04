@@ -940,7 +940,7 @@
         },
         "loader": true,
         "loaderConfig": {
-          "cardSubType": "card-progress-portrait-lib-skeleton"
+          "cardSubType": "card-portrait-click-skeleton"
         },
         "sliderConfig": {
           "showNavs": true,
@@ -951,7 +951,7 @@
         "stripBackground": "",
         "titleDescription": "My Learning",
         "stripConfig": {
-          "cardSubType": "card-progress-portrait-lib"
+          "cardSubType": "card-portrait-click"
         },
         "viewMoreUrl": {
           "path": "/app/seeAll",
@@ -960,10 +960,10 @@
             "key": "continueLearning"
           },
           "loaderConfig": {
-            "cardSubType": "card-progress-portrait-lib-skeleton"
+            "cardSubType": "card-portrait-click-skeleton"
           },
           "stripConfig": {
-            "cardSubType": "card-progress-portrait-lib"
+            "cardSubType": "card-portrait-click"
           }
         },
         "tabs": [
