@@ -134,7 +134,25 @@
               }
             ]
           },
-          "name": "Final Assessment",
+          "name": "Basic Final Assessment",
+          "primaryCategory": "Course Assessment",
+          "compatability": 6,
+          "position": "",
+          "description": "Create a final assesment content",
+          "icon": "playlist_add_check",
+          "minimum": 0,
+          "maximum": 1,
+          "enabled": true
+        },
+        {
+          "conditions": {
+            "fit": [
+              {
+                "primaryCategory": ["Course Assessment"]
+              }
+            ]
+          },
+          "name": "Advanced Final Assessment",
           "primaryCategory": "Course Assessment",
           "compatability": 7,
           "position": "",
@@ -152,7 +170,25 @@
               }
             ]
           },
-          "name": "Practice Assessment",
+          "name": "Basic Practice Assessment",
+          "primaryCategory": "Practice Question Set",
+          "compatability": 6,
+          "position": "",
+          "description": "Create a practice assesment content",
+          "icon": "playlist_add_check",
+          "minimum": 0,
+          "maximum": 0,
+          "enabled": false
+        },
+        {
+          "conditions": {
+            "fit": [
+              {
+                "primaryCategory": ["Practice Question Set"]
+              }
+            ]
+          },
+          "name": "Advanced Practice Assessment",
           "primaryCategory": "Practice Question Set",
           "compatability": 7,
           "position": "",
@@ -258,7 +294,25 @@
               }
             ]
           },
-          "name": "Practice Assessment",
+          "name": "Basic Practice Assessment",
+          "primaryCategory": "Practice Question Set",
+          "compatability": 6,
+          "position": "",
+          "description": "Create a practice assesment content",
+          "icon": "playlist_add_check",
+          "minimum": 0,
+          "maximum": 0,
+          "enabled": true
+        },
+        {
+          "conditions": {
+            "fit": [
+              {
+                "primaryCategory": ["Practice Question Set"]
+              }
+            ]
+          },
+          "name": "Advanced Practice Assessment",
           "primaryCategory": "Practice Question Set",
           "compatability": 7,
           "position": "",
@@ -525,11 +579,11 @@
               }
             ]
           },
-          "name": "Final Assessment",
+          "name": "Basic Final Assessment",
           "primaryCategory": "Course Assessment",
-          "compatability": 7,
+          "compatability": 6,
           "position": "",
-          "description": "Create a final assesment to your blended program.",
+          "description": "Create a final assesment content",
           "icon": "playlist_add_check",
           "minimum": 0,
           "maximum": 1,
@@ -539,11 +593,48 @@
           "conditions": {
             "fit": [
               {
+                "primaryCategory": ["Course Assessment"]
+              }
+            ]
+          },
+          "name": "Advanced Final Assessment",
+          "primaryCategory": "Course Assessment",
+          "compatability": 7,
+          "position": "",
+          "description": "Create a final assesment to your blended program.",
+          "icon": "playlist_add_check",
+          "minimum": 0,
+          "maximum": 1,
+          "enabled": true
+        },
+        
+        {
+          "conditions": {
+            "fit": [
+              {
                 "primaryCategory": ["Practice Question Set"]
               }
             ]
           },
-          "name": "Practice Assessment",
+          "name": "Basic Practice Assessment",
+          "primaryCategory": "Practice Question Set",
+          "compatability": 6,
+          "position": "",
+          "description": "Create a practice assesment content",
+          "icon": "playlist_add_check",
+          "minimum": 0,
+          "maximum": 0,
+          "enabled": false
+        },
+        {
+          "conditions": {
+            "fit": [
+              {
+                "primaryCategory": ["Practice Question Set"]
+              }
+            ]
+          },
+          "name": "Advanced Practice Assessment",
           "primaryCategory": "Practice Question Set",
           "compatability": 7,
           "position": "",
@@ -622,7 +713,7 @@
               }
             ]
           },
-          "name": "Final Assessment",
+          "name": "Advanced Final Assessment",
           "primaryCategory": "Course Assessment",
           "compatability": 7,
           "position": "",
@@ -640,9 +731,45 @@
               }
             ]
           },
-          "name": "Practice Assessment",
+          "name": "Advanced Practice Assessment",
           "primaryCategory": "Practice Question Set",
           "compatability": 7,
+          "position": "",
+          "description": "Create a practice assesment content",
+          "icon": "playlist_add_check",
+          "minimum": 0,
+          "maximum": 0,
+          "enabled": true
+        },
+        {
+          "conditions": {
+            "fit": [
+              {
+                "primaryCategory": ["Course Assessment"]
+              }
+            ]
+          },
+          "name": "Basic Final Assessment",
+          "primaryCategory": "Course Assessment",
+          "compatability": 6,
+          "position": "",
+          "description": "Create a final assesment content",
+          "icon": "playlist_add_check",
+          "minimum": 0,
+          "maximum": 1,
+          "enabled": true
+        },
+        {
+          "conditions": {
+            "fit": [
+              {
+                "primaryCategory": ["Practice Question Set"]
+              }
+            ]
+          },
+          "name": "Basic Practice Assessment",
+          "primaryCategory": "Practice Question Set",
+          "compatability": 6,
           "position": "",
           "description": "Create a practice assesment content",
           "icon": "playlist_add_check",
